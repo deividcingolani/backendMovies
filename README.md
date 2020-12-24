@@ -3,7 +3,7 @@
 Steps for start Backend application
 
 
-1)build and start django and PostgreSQL
+1)Build and start django and PostgreSQL
 
     docker-compose up --build -d
 
