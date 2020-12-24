@@ -9,16 +9,16 @@ Steps for start Backend application
 
 2)For make Migrations of models
 
-    docker exec -it backendmovies_web_1 python manage.py makemigrations
+    docker exec -it backend_web_1 python manage.py makemigrations
 
 3)For migrate to database
      
-    docker exec -it backendmovies_web_1 python manage.py migrate  
+    docker exec -it backend_web_1 python manage.py migrate  
 
 
 4)For create a super user, for access to admin of Django
  
-    docker exec -it backendmovies_web_1 python manage.py createsuperuser
+    docker exec -it backend_web_1 python manage.py createsuperuser
 
 5)Complete form
 
