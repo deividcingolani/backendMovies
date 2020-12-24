@@ -2,8 +2,10 @@
 
 Steps for start Backend application
 
+
 1)build and start django and PostgreSQL
-docker-compose up --build -d
+
+    docker-compose up --build -d
 
 2)For make Migrations of models
 
@@ -20,6 +22,8 @@ docker-compose up --build -d
 
 5)Complete form
 
+
+---------------------------------
 ENDPOINTS
 
 GET:
