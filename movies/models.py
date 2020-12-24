@@ -7,7 +7,7 @@ class Movies(models.Model):
     description = models.CharField(max_length=200, blank=False, default='')
     published = models.BooleanField(default=False)
     yearOfPublished = models.IntegerField(default=False)
-    duration = models.IntegerField()
+    duration = models.IntegerField(default=2020)
 
     def __str__(self):
         return self.title

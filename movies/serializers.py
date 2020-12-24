@@ -10,4 +10,5 @@ class MoviesSerializer(serializers.ModelSerializer):
                   'title',
                   'description',
                   'published',
-                  'duration')
+                  'duration',
+                  'yearOfPublished')
