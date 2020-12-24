@@ -3,9 +3,19 @@
 Steps for start Backend application
 
 
+
 1)Build and start django and PostgreSQL
 
     docker-compose up --build -d
+
+
+In case where you have an issue for running the next steps, you need verify the correct name of the container where is running django. And for this you can see the name of your container where you have running django, with the next steps.
+
+A) List containers
+ 
+        docker ps
+ 
+ And with this, you need see for the image backend_web which is the name for your local env. In my case (backend_web_1).  if you have other name, you need replace this where we will be using in the next steps.
 
 2)For make Migrations of models
 
